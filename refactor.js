@@ -30,7 +30,7 @@ function doSomethingCool() {
 // Put your answer below -------------------------
 var doSomethingCool = function() {
   console.log("Something Cool!");
-}
+};
 
 // -----------------------------------------------
 
@@ -281,7 +281,7 @@ var accelerate = function(amount) {
 var speed = 0;
 
 var accelerate = function(amount) {
-  if(amount == undefined){
+  if(amount === undefined){
     amount=1;
   }
   speed += amount;
@@ -328,7 +328,13 @@ var callLater = function(timeout, callback) {
 };
 
 // Put your answer below -------------------------
-
+var callLater = function(timeout, callback) {
+  if(callback===undefined){
+    callback=timeout;
+    timeout=1000;
+  }
+  setTimeout(callback, timeout);
+};
 
 // -----------------------------------------------
 
