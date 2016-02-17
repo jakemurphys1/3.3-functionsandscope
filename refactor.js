@@ -152,7 +152,7 @@ var Color = {
   "negro" : "#000000",
   };
   return (Color[type]);
-};
+}
 console.log(spanishColor("azul"));
 // -----------------------------------------------
 
