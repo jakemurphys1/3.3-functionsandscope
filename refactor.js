@@ -83,6 +83,9 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+//This answer is [C];
+//The console.log outside the setTimeout function will log immediately, while the console.log inside the function will wait one
+//millisecond. "X" will not be logged as the variable "letter" will be overwritten as "Z" before letter is ever logged.
 
 // -----------------------------------------------
 
